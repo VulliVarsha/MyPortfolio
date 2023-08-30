@@ -1,0 +1,139 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/python.jpeg",
+      "title": "Python"
+    },
+    {
+      "id": "2",
+      "src": "./img/cpp.png",
+      "title": "C++"
+    },
+    {
+      "id": "3",
+      "src": "./img/R.jpeg",
+      "title": "R"
+    },
+    {
+      "id": "4",
+      "src": "./img/html.png",
+      "title": "HTML5"
+    },
+    {
+      "id": "5",
+      "src": "./img/css.png",
+      "title": "CSS3"
+    },
+    {
+      "id": "6",
+      "src": "./img/js.png",
+      "title": "JavaScript"
+    },
+    {
+      "id": "7",
+      "src": "./img/dj.png",
+      "title": "Django"
+    },
+    {
+      "id": "8",
+      "src": "./img/angular.png",
+      "title": "Angular"
+    },
+    {
+      "id": "9",
+      "src": "./img/reactjs.png",
+      "title": "ReactJS"
+    },
+    {
+      "id": "10",
+      "src": "./img/nodejs.png",
+      "title": "NodeJS"
+    },
+    {
+      "id": "11",
+      "src": "./img/tableau.png",
+      "title": "Tableau"
+    },
+    {
+      "id": "11",
+      "src": "./img/powerbi.jpeg",
+      "title": "PowerBI"
+    },
+    {
+      "id": "12",
+      "src": "./img/git.png",
+      "title": "Github"
+    },
+    {
+      "id": "13",
+      "src": "./img/bigquery.png",
+      "title": "BigQuery"
+    },
+    {
+      "id": "14",
+      "src": "./img/tensorflow.png",
+      "title": "Tensorflow"
+    },
+    {
+      "id": "15",
+      "src": "./img/keras.png",
+      "title": "Keras"
+    },
+    {
+      "id": "16",
+      "src": "./img/pytorch.png",
+      "title": "PyTorch"
+    },
+    {
+      "id": "17",
+      "src": "./img/opencv.png",
+      "title": "OpenCV"
+    },
+    {
+      "id": "18",
+      "src": "./img/spark.png",
+      "title": "Spark"
+    },
+    {
+      "id": "19",
+      "src": "./img/hadoop.jpeg",
+      "title": "Hadoop"
+    },
+    {
+      "id": "20",
+      "src": "./img/postgressql.png",
+      "title": "PostgreSQl"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.jpeg",
+      "title": "Personalized Fashion Assistant",
+      "description": "Innovative personalized fashion assistant enabling virtual try-on, expert ratings, and fit advice for women's tops, enhancing online shopping.",
+      "link": "https://github.com/VulliVarsha/Personalized-Fashion-Assistant"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.jpeg",
+      "title": "Movie Genre Prediction",
+      "description": "Exploring genre classification for movies using NLP and ML techniques, leveraging plots, titles, and tags through BiLSTM modeling.",
+      "link": "https://github.com/VulliVarsha/Movie-Genre-Prediction"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Campus Crib, Housing Made Easy!! ",
+      "description": "Designed interactive housing search platform with Django, elevating UF student housing matches by 25% and boosting satisfaction.",
+      "link": "https://github.com/goutham6045/CampusCrib"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-3.jpeg",
+      "title": "Twiyyer Engine Clone ",
+      "description": "Built fault-tolerant Twitter replica in Erlang, highlighting concurrent processing, serving 10,000+ users while ensuring stability.",
+      "link": "https://github.com/divyasrinaraharisetti/Twitter-Clone-engine"
+    }
+  ]
+}
