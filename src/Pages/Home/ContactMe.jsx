@@ -7,12 +7,43 @@ export default function ContactMe() {
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
+  const [submissionStatus, setSubmissionStatus] = useState(null);
 
   // Function to handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Create a formData object to send the form data
+    const formData = new FormData();
+    formData.append('first-name', firstName);
+    formData.append('last-name', lastName);
+    formData.append('email', email);
+    formData.append('phone-number', phoneNumber);
+    formData.append('message', message);
+
     // Add your form submission logic here
+    // For example, you can use fetch to send the data to your server
+    // Replace 'YOUR_API_ENDPOINT' with the actual endpoint
+    try {
+      // Send the data to the server
+      const response = await fetch('https://getform.io/f/bc61944d-92f5-4053-8de2-64cf0867405a', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        // Handle a successful form submission here
+        console.log('Form submitted successfully');
+        setSubmissionStatus('success'); // Set submission status to success
+      } else {
+        // Handle errors if the submission fails
+        console.error('Form submission failed');
+        setSubmissionStatus('error'); // Set submission status to error
+      }
+    } catch (error) {
+      console.error('An error occurred:', error);
+      setSubmissionStatus('error'); // Set submission status to error
+    }
 
     // Reset input fields to empty strings after submission
     setFirstName('');
@@ -102,6 +133,16 @@ export default function ContactMe() {
           </button>
         </div>
       </form>
+      <div>
+        {submissionStatus === 'success' && (
+        <p className="text-success">Form submitted successfully!</p>
+        )}
+        {submissionStatus === 'error' && (
+          <p className="text-error">Form submission failed. Please try again later.</p>
+        )}
+     </div>
     </section>
+    
+    
   );
 }
