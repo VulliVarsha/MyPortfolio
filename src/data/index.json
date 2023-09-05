@@ -131,9 +131,16 @@
     {
       "id": "4",
       "src": "./img/placeholder-image-3.jpeg",
-      "title": "Twiyyer Engine Clone ",
+      "title": "Twitter Engine Clone ",
       "description": "Built fault-tolerant Twitter replica in Erlang, highlighting concurrent processing, serving 10,000+ users while ensuring stability.",
-      "link": "https://github.com/divyasrinaraharisetti/Twitter-Clone-engine"
+      "link": "https://github.com/VulliVarsha/Twitter_clone"
+    },
+    {
+      "id": "5",
+      "src": "./img/placeholder-image-4.jpeg",
+      "title": "E-commerce Replica Development ",
+      "description": "Created a feature-rich MERN e-commerce clone mimicking Flipkart, achieving 90% feature match and enhancing user engagement by 50% through responsive design.",
+      "link": "https://github.com/VulliVarsha/E-commerce"
     }
   ]
 }
