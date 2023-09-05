@@ -141,6 +141,13 @@
       "title": "E-commerce Replica Development ",
       "description": "Created a feature-rich MERN e-commerce clone mimicking Flipkart, achieving 90% feature match and enhancing user engagement by 50% through responsive design.",
       "link": "https://github.com/VulliVarsha/E-commerce"
+    },
+    {
+      "id": "6",
+      "src": "./img/placeholder-image-5.jpeg",
+      "title": "Helmet Detection of Bike Riders ",
+      "description": "Enhanced YOLOv3 model to detect helmet usage during bike rides by fine-tuning on 1500 annotated images, achieving accurate real-time predictions for rider safety.",
+      "link": "https://github.com/VulliVarsha/Helmet-Detection-For-Bike-Riders"
     }
   ]
 }
