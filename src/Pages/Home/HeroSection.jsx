@@ -20,7 +20,7 @@ export default function HeroSection() {
             <span className="hero--section-title--color">Varsha Vulli</span>{" "}
           </h1>
           <p className="hero--section-description">
-            "Versaltile Mind with Expertise in Tech Exploration, Web Development,
+            "Versatile Mind with Expertise in Tech Exploration, Web Development,
             and the Realm of AI, Data, Machine Learning, 
             Driving Research and Innovation"
           </p>
